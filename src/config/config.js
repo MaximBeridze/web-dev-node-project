@@ -25,7 +25,7 @@ export const config = {
 	apiKey: process.env.API_KEY,
 	
 	// JWT (for future auth)
-	jwtSecret: process.env.JWT_SECRET || 'default-secret-change-in-production',
+	jwtSecret: process.env.JWT_SECRET || 'my-jwt-secret',
 	jwtExpiresIn: process.env.JWT_EXPIRES_IN || '24h',
 	
 	// Helper methods
